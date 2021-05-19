@@ -21,6 +21,11 @@ const Header = ({ data }) => {
   return (
     <header id="home">
       <nav id="nav-wrap">
+        <div className="hamburger">
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
         </a>

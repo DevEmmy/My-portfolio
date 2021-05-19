@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #ffffff; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(https://image.freepik.com/free-photo/side-view-laptop-pc-with-color-light-dark-technology-gaming-concept_37129-945.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: rgb(10,100,200); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +117,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: rgb(10,100,200); }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: rgb(10,100,200); }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,10 +187,14 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: rgb(10,100,200);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+   width: 80%;
+   margin: 100px auto;
+   border-radius: 20px;
+   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -203,7 +207,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ffffff;
 }
 #about .profile-pic {
    position: relative;
@@ -219,11 +223,13 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: rgb(10,100,250);
+   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+   border-radius: 30px;
 }
 #about .download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: rgb(10,100,250);;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -240,6 +246,12 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   width: 80%;
+   color: #FFFFFF;
+   margin: 100px auto;
+   background: rgba(0, 0, 0, .5);
+   border-radius: 20px;
+   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
@@ -251,11 +263,13 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #ffffff;
    padding-bottom: 6px;
+   color: #ffffff;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color: #ffffff;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -268,7 +282,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #FFFFFF;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -304,7 +318,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #ffffff;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -420,6 +434,10 @@ ul#nav li.current a { color: #F06000; }
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
+   width: 80%;
+   margin: 50px auto;
+   border-radius: 20px;
+   box-shadow: 0 20px 20px rgba(0, 0, 0, .3);
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -431,11 +449,13 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper .columns { margin-bottom: 36px;
+width: 100%; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
+
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -645,7 +665,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F  no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -654,6 +674,10 @@ call-to-action .button {
    min-height: 200px;
    width: 100%;
    overflow: hidden;
+   width: 80%;
+   margin: 150px auto;
+   border-radius: 20px;
+   box-shadow: 0 20px 20px rgba(0, 0, 0, .3);
 }
 #testimonials .text-container {
    padding-top: 96px;
@@ -794,10 +818,14 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: rgb(10,100,200);
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #ffffff;
+   width: 80%;
+   margin: 50px auto;
+   border-radius: 20px;
+   box-shadow: 0 20px 20px rgba(0, 0, 0, .3);
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -849,14 +877,15 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
-	background: #373233;
+	color: rgb(100,100,100);
+	background: #ffffff;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
    font-size: 15px;
    line-height: 24px;
    width: 65%;
+   border-radius: 6px;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -868,17 +897,19 @@ call-to-action .button {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #0D0D0D;
+   background: rgb(10,100,250);
+   width: 65%;
 	border: none;
    cursor: pointer;
    height: auto;
    display: inline-block;
-	border-radius: 3px;
+	border-radius: 30px;
    margin-left: 26%;
+   box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
+	color: rgb(10,100,250);
+	background: #ffffff;
 }
 #contact span.required {
 	color: #11ABB0;
@@ -940,7 +971,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: rgb(10,100,200); }
 
 /* copyright */
 footer .copyright {
@@ -960,7 +991,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: rgb(10,100,200);
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -1008,4 +1039,15 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: rgb(10,100,200); }
+@media screen and (max-width:500px) {
+   #about, #resume, #portfolio, #contact, #testimonials{
+      width:90%;
+   }
+
+   #contact button.submit{
+      width: 100%;
+   }
+
+
+}

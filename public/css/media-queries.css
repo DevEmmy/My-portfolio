@@ -112,7 +112,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: transparent;
 		position: relative;
       border: none;
       float: right;
@@ -124,18 +124,25 @@
       position: relative;
       top: 0px;
       right: 30px;
+
    }
 
-	#nav-wrap > a:before,
-   #nav-wrap > a:after {
-	   position: absolute;
-		border: 2px solid #fff;
-		top: 35%;
-		left: 25%;
-		right: 25%;
-		content: '';
-	}
-   #nav-wrap > a:after { top: 60%; }
+   .hamburger{
+      width: 5px;
+      height: auto;
+      position: fixed;
+      top: 10px;
+      right: 30px;
+   }
+
+   .line{
+      width: 100%;
+      height: 5px;
+      background: #ffff;
+      margin-top: 5px;
+      border-radius: 20px;
+
+   }
 
    /* toggle buttons */
 	#nav-wrap:not( :target ) > a:first-of-type,
@@ -153,7 +160,7 @@
 
       position: relative;
       top: 12px;
-      right: 0;
+      right: 0px;
    }
 
    /* display menu panels */
@@ -161,7 +168,7 @@
 	   display: block;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
-      margin: 0 30px;
+      margin: 0 10px;
       clear: both;
    }
 
